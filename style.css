@@ -1,0 +1,60 @@
+/* GLOBALS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+/* FLOWLESS PAYMENT FLOW SECTION */
+
+#flowless-payment-flow {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #07244c, #113e7f);
+}
+
+.nav-wrapper {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 50%;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex: 1 1 20rem;
+  justify-content: flex-start;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-evenly;
+}
+
+.login-register {
+  display: flex;
+  flex: 1 1 20rem;
+  justify-content: flex-end;
+}
