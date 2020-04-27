@@ -10,8 +10,16 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Varela", sans-serif;
+}
+
 li {
-  list-style: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* FLOWLESS PAYMENT FLOW SECTION */
@@ -28,9 +36,8 @@ li {
 }
 
 nav {
-  width: 50%;
+  width: 60%;
   font-size: 2rem;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,7 +45,7 @@ nav {
 
 .logo {
   display: flex;
-  flex: 1 1 20rem;
+  flex: 1 1 5rem;
   justify-content: flex-start;
 }
 
@@ -49,12 +56,16 @@ nav {
 
 nav ul {
   display: flex;
-  flex: 1 1 40rem;
+  flex: 2 1 40rem;
   justify-content: space-evenly;
 }
 
 .login-register {
   display: flex;
-  flex: 1 1 20rem;
+  flex: 1 1 5rem;
   justify-content: flex-end;
+}
+
+.login-register a {
+  padding-right: 2rem;
 }
