@@ -149,3 +149,19 @@ nav ul a.lower-opacity {
   padding: 1rem 2rem;
   border-radius: 1.5rem;
 }
+
+.triangle {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 45%;
+  right: 0;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 800rem solid transparent;
+  border-bottom: 150rem solid black;
+}
