@@ -30,6 +30,10 @@ h1 {
   font-size: 5rem;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
 h3 {
   font-size: 2rem;
 }
@@ -150,4 +154,30 @@ nav ul a.lower-opacity {
   background: rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
   border-radius: 1.5rem;
+}
+
+#rebob {
+  height: 60vh;
+  background: white;
+  transform: skew(0deg, -10deg);
+  display: flex;
+  justify-content: center;
+}
+
+.rebob-wrapper {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: skew(0deg, 10deg);
+}
+
+.rebob-text {
+  text-align: center;
+}
+
+.rebob-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
