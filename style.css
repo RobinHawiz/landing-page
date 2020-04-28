@@ -22,13 +22,6 @@ a {
   color: white;
 }
 
-/* FLOWLESS PAYMENT FLOW SECTION */
-
-#flowless-payment-flow {
-  min-height: 100vh;
-  background-image: linear-gradient(to right, #07244c, #113e7f);
-}
-
 .nav-wrapper {
   min-height: 10vh;
   display: flex;
@@ -83,4 +76,11 @@ nav ul {
 
 .login-register button:hover {
   cursor: pointer;
+}
+
+/* FLOWLESS PAYMENT FLOW SECTION */
+
+#flowless-payment-flow {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #07244c, #113e7f);
 }
