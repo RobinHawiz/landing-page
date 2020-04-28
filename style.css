@@ -39,15 +39,15 @@ p {
 }
 
 .nav-wrapper {
-  min-height: 10vh;
+  min-height: 8vh;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
 nav {
-  width: 70%;
-  font-size: 2rem;
+  width: 50%;
+  font-size: 1.5rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ nav {
 
 .logo {
   display: flex;
-  flex: 0.5 1 10rem;
+  flex: 1 1 10rem;
   justify-content: flex-start;
 }
 
@@ -67,8 +67,12 @@ nav {
 
 nav ul {
   display: flex;
-  flex: 2 1 40rem;
+  flex: 2 1 10rem;
   justify-content: space-evenly;
+}
+
+nav ul a.lower-opacity {
+  opacity: 0.7;
 }
 
 .login-register {
@@ -85,10 +89,10 @@ nav ul {
 .login-register button {
   background-color: white;
   color: #07244c;
-  padding: 1.5rem 2.8rem;
+  padding: 1.3rem 2.8rem;
   border-radius: 1.7rem;
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .login-register button:hover {
