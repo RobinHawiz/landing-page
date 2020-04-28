@@ -36,8 +36,9 @@ a {
 }
 
 nav {
-  width: 60%;
+  width: 70%;
   font-size: 2rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +46,7 @@ nav {
 
 .logo {
   display: flex;
-  flex: 1 1 5rem;
+  flex: 0.5 1 10rem;
   justify-content: flex-start;
 }
 
@@ -62,10 +63,24 @@ nav ul {
 
 .login-register {
   display: flex;
-  flex: 1 1 5rem;
+  flex: 1 1 10rem;
+  align-items: center;
   justify-content: flex-end;
 }
 
 .login-register a {
   padding-right: 2rem;
+}
+
+.login-register button {
+  background-color: white;
+  color: #07244c;
+  padding: 1.5rem 2.8rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2rem;
+}
+
+.login-register button:hover {
+  cursor: pointer;
 }
