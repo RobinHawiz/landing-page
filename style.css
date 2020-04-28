@@ -14,12 +14,28 @@ body {
   font-family: "Varela", sans-serif;
 }
 
+button {
+  font-family: "Varela", sans-serif;
+}
+
 li {
   list-style-type: none;
 }
 a {
   text-decoration: none;
   color: white;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
 }
 
 .nav-wrapper {
@@ -70,7 +86,7 @@ nav ul {
   background-color: white;
   color: #07244c;
   padding: 1.5rem 2.8rem;
-  border-radius: 1rem;
+  border-radius: 1.7rem;
   border: none;
   font-size: 2rem;
 }
@@ -84,13 +100,42 @@ nav ul {
 #flowless-payment-flow {
   min-height: 100vh;
   background-image: linear-gradient(to right, #07244c, #113e7f);
-  position: relative;
 }
 
 .product-wrapper {
-  width: 70%;
+  min-height: 60vh;
+  width: 50%;
   margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 .product-content {
+  color: white;
+}
+
+.product-content h3 {
+  opacity: 0.85;
+}
+
+.product-content h1 {
+  padding: 3rem 0rem;
+}
+
+.product-content p {
+  opacity: 0.6;
+}
+
+.product-content button {
+  font-weight: 700;
+  padding: 2rem 3rem;
+  margin-top: 10rem;
+  border-radius: 1.7rem;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  background: #52de97;
+}
+
+.product-name {
 }
