@@ -26,6 +26,7 @@ a {
   min-height: 10vh;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
 nav {
@@ -83,4 +84,13 @@ nav ul {
 #flowless-payment-flow {
   min-height: 100vh;
   background-image: linear-gradient(to right, #07244c, #113e7f);
+  position: relative;
+}
+
+.product-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.product-content {
 }
