@@ -102,7 +102,6 @@ nav ul a.lower-opacity {
 /* FLOWLESS PAYMENT FLOW SECTION */
 
 #flowless-payment-flow {
-  min-height: 92vh;
   background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
@@ -149,20 +148,4 @@ nav ul a.lower-opacity {
   background: rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
   border-radius: 1.5rem;
-}
-
-.triangle {
-  min-height: 32vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.arrow-up {
-  width: 0;
-  height: 0;
-  border-left: 10vh solid transparent;
-  border-right: 10vh solid transparent;
-
-  border-bottom: 10vh solid black;
 }
