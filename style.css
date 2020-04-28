@@ -102,7 +102,7 @@ nav ul a.lower-opacity {
 /* FLOWLESS PAYMENT FLOW SECTION */
 
 #flowless-payment-flow {
-  min-height: 100vh;
+  min-height: 92vh;
   background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
