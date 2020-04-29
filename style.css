@@ -181,3 +181,17 @@ nav ul a.lower-opacity {
   justify-content: space-evenly;
   margin-top: 1rem;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box p {
+  padding-left: 0.5rem;
+}
+
+.box img {
+  height: 7rem;
+  width: 7rem;
+}
