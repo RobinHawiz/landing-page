@@ -110,6 +110,7 @@ nav ul a.lower-opacity {
 /* FLOWLESS PAYMENT FLOW SECTION */
 
 #flowless-payment-flow {
+  padding: 4rem 0;
   position: relative;
   z-index: 1;
   background-image: linear-gradient(to right, #07244c, #113e7f);
@@ -119,7 +120,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 20rem;
+  min-height: 30vh;
   position: absolute;
   left: 0;
   right: 0;
@@ -152,6 +153,7 @@ nav ul a.lower-opacity {
 }
 
 .product-content p {
+  line-height: 1.6;
   opacity: 0.6;
 }
 
@@ -190,18 +192,22 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 20rem;
+  min-height: 30vh;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 1;
 }
 
+#rebob::after {
+  transform: skewY(-10deg);
+}
+
 #rebob:before {
   background: inherit;
   content: "";
   display: block;
-  height: 20rem;
+  height: 30vh;
   position: absolute;
   left: 0;
   right: 0;
@@ -212,10 +218,6 @@ nav ul a.lower-opacity {
   bottom: 0;
   transform: skewY(-10deg);
   z-index: 1;
-}
-
-#rebob::after {
-  transform: skewY(-10deg);
 }
 
 .rebob-wrapper {
@@ -297,7 +299,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 20rem;
+  min-height: 30vh;
   position: absolute;
   left: 0;
   right: 0;
@@ -387,6 +389,8 @@ nav ul a.lower-opacity {
 }
 
 @media screen and (max-width: 1566px) {
+  /* NAVBAR */
+
   nav {
     justify-content: center;
   }
@@ -408,7 +412,63 @@ nav ul a.lower-opacity {
     padding: 2rem 0;
   }
 
-  nav ul a {
-    flex: 1 1 1rem;
+  /* FLOWLESS PAYMENT FLOW */
+
+  .product-content {
+  }
+
+  .product-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .product-content h1 {
+    font-size: 3rem;
+  }
+
+  .product-content p {
+    font-size: 1.5rem;
+  }
+
+  .product-content button {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  /* NAVBAR */
+
+  nav ul {
+    font-size: 1.2rem;
+  }
+
+  .login-register {
+    font-size: 1.2rem;
+  }
+
+  .login-register button {
+    font-size: 1.2rem;
+  }
+
+  /* FLOWLESS PAYMENT FLOW */
+  .product-content {
+    text-align: center;
+  }
+  .product-content h3 {
+    font-size: 1.2rem;
+  }
+  .product-content h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .product-content p {
+    font-size: 1.2rem;
+  }
+
+  .product-content button {
+    margin-top: 7rem;
+    font-size: 1.2rem;
+  }
+  .product-name {
+    justify-content: center;
   }
 }
