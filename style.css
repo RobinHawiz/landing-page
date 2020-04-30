@@ -12,7 +12,6 @@ html {
 
 body {
   font-family: "Varela", sans-serif;
-  background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
 button {
@@ -47,6 +46,7 @@ p {
   min-height: 8vh;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to right, #07244c, #113e7f);
 }
 
 nav {
@@ -106,6 +106,25 @@ nav ul a.lower-opacity {
 /* FLOWLESS PAYMENT FLOW SECTION */
 
 #flowless-payment-flow {
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to right, #07244c, #113e7f);
+}
+
+#flowless-payment-flow::after {
+  background: inherit;
+  content: "";
+  display: block;
+  height: 30%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#flowless-payment-flow::after {
+  bottom: 0;
+  transform: skewY(-10deg);
 }
 
 .product-wrapper {
@@ -156,11 +175,26 @@ nav ul a.lower-opacity {
 /* REBOB SECTION */
 
 #rebob {
-  height: 60vh;
+  min-height: 60vh;
   background: white;
-  transform: skew(0deg, -10deg);
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+#rebob::after {
+  background: white;
+  content: "";
+  display: block;
+  height: 20rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#rebob::after {
+  transform: skewY(-10deg);
 }
 
 .rebob-wrapper {
@@ -170,9 +204,9 @@ nav ul a.lower-opacity {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: skew(0deg, 10deg);
   font-weight: lighter;
   color: #122552;
+  z-index: 2;
 }
 
 .rebob-text {
@@ -233,7 +267,6 @@ nav ul a.lower-opacity {
 #video {
   height: 60vh;
   background: #f5f9fc;
-  transform: skew(0deg, -10deg);
   display: flex;
   justify-content: center;
 }
@@ -245,7 +278,6 @@ nav ul a.lower-opacity {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: skew(0deg, 10deg);
   font-weight: lighter;
   color: #122552;
 }
