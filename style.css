@@ -250,6 +250,7 @@ nav ul a.lower-opacity {
 
 .rebob-boxes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 5rem;
 }
@@ -259,11 +260,13 @@ nav ul a.lower-opacity {
   align-items: center;
   justify-content: center;
   width: 30%;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
   border-radius: 1rem;
   border-width: 0.2rem;
+  margin: 2rem;
   border-style: dashed;
   border-color: rgba(166, 176, 201, 0.5);
+  flex: 1 1 20rem;
 }
 
 .box:hover {
@@ -281,8 +284,8 @@ nav ul a.lower-opacity {
 }
 
 .box img {
-  height: 7rem;
-  width: 7rem;
+  height: 6vh;
+  width: 6vh;
 }
 
 /* VIDEO SECTION */
