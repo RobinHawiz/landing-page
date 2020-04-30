@@ -181,10 +181,11 @@ nav ul a.lower-opacity {
 /* REBOB SECTION */
 
 #rebob {
-  min-height: 60vh;
+  min-height: 70vh;
   background: white;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
 }
 
@@ -200,6 +201,7 @@ nav ul a.lower-opacity {
 }
 
 #rebob::after {
+  top: -1%;
   transform: skewY(-10deg);
 }
 
@@ -223,7 +225,6 @@ nav ul a.lower-opacity {
 .rebob-wrapper {
   width: 58%;
   height: 20vh;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,7 +241,6 @@ nav ul a.lower-opacity {
   color: rgba(18, 37, 82, 0.7);
   font-weight: lighter;
   letter-spacing: 0.2rem;
-  font-size: 1.8rem;
 }
 
 .rebob-text h2 {
@@ -259,7 +259,6 @@ nav ul a.lower-opacity {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
   padding: 1.5rem;
   border-radius: 1rem;
   border-width: 0.2rem;
@@ -273,10 +272,6 @@ nav ul a.lower-opacity {
   transition: 0.5s ease-in-out;
   border: none;
   box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.1);
-}
-
-.box1 {
-  padding-right: 5rem;
 }
 
 .box h3 {
@@ -330,7 +325,6 @@ nav ul a.lower-opacity {
 .video-text h3 {
   color: rgba(18, 37, 82, 0.7);
   letter-spacing: 0.2rem;
-  font-size: 1.8rem;
   font-weight: lighter;
 }
 
@@ -396,6 +390,10 @@ nav ul a.lower-opacity {
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
   }
 
   h1 {
@@ -475,5 +473,10 @@ nav ul a.lower-opacity {
   }
   .product-name {
     justify-content: center;
+  }
+
+  /* REBOB SECTION */
+  #rebob {
+    min-height: 100vh;
   }
 }
