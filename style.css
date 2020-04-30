@@ -359,8 +359,8 @@ nav ul a.lower-opacity {
 
 .video-mockup .total-patients {
   position: absolute;
-  width: 22vh;
-  height: 9vh;
+  width: 20vh;
+  height: 8vh;
   right: 5%;
   top: 50%;
   transform: skew(-10deg, 10deg);
