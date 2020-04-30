@@ -432,6 +432,18 @@ nav ul a.lower-opacity {
 }
 
 @media screen and (max-width: 581px) {
+  /* GLOBALS */
+
+  h3 {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+
   /* NAVBAR */
 
   nav ul {
@@ -450,15 +462,8 @@ nav ul a.lower-opacity {
   .product-content {
     text-align: center;
   }
-  .product-content h3 {
-    font-size: 1.2rem;
-  }
   .product-content h1 {
     text-align: center;
-    font-size: 2.5em;
-  }
-  .product-content p {
-    font-size: 1.2rem;
   }
 
   .product-content button {
