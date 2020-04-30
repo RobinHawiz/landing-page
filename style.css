@@ -115,7 +115,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  height: 30%;
+  min-height: 20rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -183,13 +183,30 @@ nav ul a.lower-opacity {
 }
 
 #rebob::after {
-  background: white;
+  background: inherit;
+  content: "";
+  display: block;
+  min-height: 20rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#rebob:before {
+  background: inherit;
   content: "";
   display: block;
   height: 20rem;
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 1;
+}
+
+#rebob:before {
+  bottom: 0;
+  transform: skewY(-10deg);
   z-index: 1;
 }
 
@@ -265,19 +282,96 @@ nav ul a.lower-opacity {
 /* VIDEO SECTION */
 
 #video {
-  height: 60vh;
+  height: 70vh;
   background: #f5f9fc;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+#video::after {
+  background: inherit;
+  content: "";
+  display: block;
+  min-height: 20rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#video::after {
+  top: 0;
+  transform: skewY(-10deg);
 }
 
 .video-wrapper {
   width: 58%;
-  height: 20vh;
-  margin: auto;
+  min-height: 40vh;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-weight: lighter;
   color: #122552;
+  z-index: 2;
+}
+
+.video-text {
+  text-align: center;
+}
+.video-text h3 {
+  color: rgba(18, 37, 82, 0.7);
+  letter-spacing: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.video-text h2 {
+  padding-top: 2rem;
+  font-weight: lighter;
+}
+
+.video-mockup {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.video-mockup img {
+  border-radius: 1rem;
+}
+
+.video-mockup .video-interface {
+  height: 40vh;
+  width: 70vh;
+  box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-mockup .patient-by-gender {
+  position: absolute;
+  width: 15vh;
+  height: 17vh;
+  transform: skew(10deg, -10deg);
+  left: 5%;
+  top: 10%;
+  box-shadow: -15px 85px 105px 14px rgba(0, 0, 0, 0.15);
+}
+
+.video-mockup .total-patients {
+  position: absolute;
+  width: 22vh;
+  height: 9vh;
+  right: 5%;
+  top: 50%;
+  transform: skew(-10deg, 10deg);
+  box-shadow: 0px 85px 105px 14px rgba(0, 0, 0, 0.25);
+}
+
+.video-mockup .play-circle {
+  position: absolute;
+  padding: 6rem;
+  border-radius: 6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #52de97;
 }
