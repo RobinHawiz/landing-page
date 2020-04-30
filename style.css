@@ -53,7 +53,7 @@ p {
 }
 
 nav {
-  width: 50%;
+  width: 58%;
   font-size: 1.5rem;
   font-weight: 700;
   display: flex;
@@ -113,7 +113,7 @@ nav ul a.lower-opacity {
 
 .product-wrapper {
   min-height: 50vh;
-  width: 50%;
+  width: 58%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -165,7 +165,7 @@ nav ul a.lower-opacity {
 }
 
 .rebob-wrapper {
-  width: 50%;
+  width: 58%;
   height: 50vh;
   display: flex;
   flex-direction: column;
