@@ -42,6 +42,8 @@ p {
   font-size: 2rem;
 }
 
+/* NAVBAR */
+
 .nav-wrapper {
   min-height: 8vh;
   display: flex;
@@ -50,17 +52,19 @@ p {
 }
 
 nav {
+  padding: 2rem 0;
   width: 58%;
   font-size: 1.5rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo {
   display: flex;
-  flex: 1 1 10rem;
+  flex: 0.1 1 20rem;
   justify-content: flex-start;
 }
 
@@ -71,7 +75,7 @@ nav {
 
 nav ul {
   display: flex;
-  flex: 2 1 10rem;
+  flex: 2 1 40rem;
   justify-content: space-evenly;
 }
 
@@ -81,7 +85,7 @@ nav ul a.lower-opacity {
 
 .login-register {
   display: flex;
-  flex: 1 1 10rem;
+  flex: 1 1 30rem;
   align-items: center;
   justify-content: flex-end;
 }
@@ -380,4 +384,31 @@ nav ul a.lower-opacity {
   height: 3.2rem;
   width: 3.2rem;
   padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 1566px) {
+  nav {
+    justify-content: center;
+  }
+
+  .logo {
+    order: 1;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+
+  nav ul {
+    order: 3;
+    flex-wrap: wrap;
+  }
+
+  .login-register {
+    order: 2;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+
+  nav ul a {
+    flex: 1 1 1rem;
+  }
 }
