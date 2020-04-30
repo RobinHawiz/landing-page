@@ -389,6 +389,24 @@ nav ul a.lower-opacity {
 }
 
 @media screen and (max-width: 1566px) {
+  /* GLOBALS */
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+  }
+
   /* NAVBAR */
 
   nav {
@@ -410,27 +428,6 @@ nav ul a.lower-opacity {
     order: 2;
     justify-content: center;
     padding: 2rem 0;
-  }
-
-  /* FLOWLESS PAYMENT FLOW */
-
-  .product-content {
-  }
-
-  .product-content h3 {
-    font-size: 1.5rem;
-  }
-
-  .product-content h1 {
-    font-size: 3rem;
-  }
-
-  .product-content p {
-    font-size: 1.5rem;
-  }
-
-  .product-content button {
-    font-size: 1.3rem;
   }
 }
 
