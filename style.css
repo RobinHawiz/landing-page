@@ -369,9 +369,15 @@ nav ul a.lower-opacity {
 
 .video-mockup .play-circle {
   position: absolute;
-  padding: 6rem;
+  padding: 4rem;
   border-radius: 6rem;
   top: 50%;
   transform: translateY(-50%);
   background: #52de97;
+}
+
+.play-circle img {
+  height: 3.2rem;
+  width: 3.2rem;
+  padding-left: 0.5rem;
 }
