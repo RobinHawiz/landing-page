@@ -60,6 +60,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 2;
 }
 
 .logo {
@@ -120,7 +121,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 100%;
+  min-height: 150%;
   position: absolute;
   left: 0;
   right: 0;
