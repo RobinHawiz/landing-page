@@ -392,6 +392,24 @@ nav ul a.lower-opacity {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+#team-meeting::after {
+  background: white;
+  content: "";
+  display: block;
+  min-height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+#team-meeting::after {
+  z-index: -1;
+  transform: skewY(-10deg);
 }
 
 .team-meeting-wrapper {
