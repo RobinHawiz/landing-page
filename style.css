@@ -388,14 +388,14 @@ nav ul a.lower-opacity {
 /* TEAM MEETING SECTION */
 
 #team-meeting {
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .team-meeting-wrapper {
-  min-height: 100%;
+  min-height: 50vh;
   min-width: 100%;
   display: flex;
   align-items: center;
@@ -411,7 +411,27 @@ nav ul a.lower-opacity {
 }
 
 .team-meeting-text h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+}
+
+.team-meeting-text p {
+  line-height: 2;
+  color: rgba(18, 37, 82, 0.7);
+  position: relative;
+}
+
+.team-meeting-text p:before {
+  content: "";
+  background-image: url("./images/checkmark.png");
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 1.8rem;
+  height: 1.5rem;
+  margin-right: 3rem;
+}
+
+.team-meeting-text li {
+  padding-top: 4rem;
 }
 
 .team-meeting-text a {
