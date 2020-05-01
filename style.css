@@ -389,9 +389,6 @@ nav ul a.lower-opacity {
 
 #team-meeting {
   min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   z-index: 1;
 }
@@ -414,15 +411,12 @@ nav ul a.lower-opacity {
 
 .team-meeting-wrapper {
   min-height: 50vh;
-  min-width: 95%;
-  margin: 0 0 0 auto;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
 }
 
 .team-meeting-text {
-  margin-right: 20rem;
 }
 
 .team-meeting-text h2 {
@@ -462,16 +456,19 @@ nav ul a.lower-opacity {
 .team-meeting-images .site-referrals {
   grid-column: 1/2;
   grid-row: 1/2;
+  align-self: end;
 }
 
 .team-meeting-images .deposits {
   grid-column: 2/3;
   grid-row: 1/3;
+  align-self: center;
 }
 
 .team-meeting-images .top-countries {
   grid-column: 1/2;
   grid-row: 2/3;
+  align-self: start;
 }
 
 .team-meeting-images {
@@ -480,7 +477,6 @@ nav ul a.lower-opacity {
   width: 40vh;
   display: grid;
   grid-gap: 8rem;
-  align-items: center;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -568,8 +564,23 @@ nav ul a.lower-opacity {
     height: 2.5rem;
     width: 2.5rem;
   }
-}
 
+  /* TEAM MEETING SECTION */
+
+  .team-meeting-text {
+    margin: 0;
+  }
+
+  .team-meeting-images {
+    width: 10%;
+    grid-gap: 4rem;
+  }
+
+  .image {
+    height: 12vh;
+    width: 9vh;
+  }
+}
 @media screen and (max-width: 581px) {
   /* GLOBALS */
 
