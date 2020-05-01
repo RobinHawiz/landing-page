@@ -286,7 +286,7 @@ nav ul a.lower-opacity {
 /* VIDEO SECTION */
 
 #video {
-  height: 70vh;
+  min-height: 70vh;
   padding: 4rem 0;
   background: #f5f9fc;
   display: flex;
@@ -314,6 +314,8 @@ nav ul a.lower-opacity {
   min-height: 40vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: lighter;
   color: #122552;
   z-index: 2;
@@ -338,6 +340,8 @@ nav ul a.lower-opacity {
   display: flex;
   justify-content: center;
   position: relative;
+  height: 40vh;
+  width: 70vh;
 }
 
 .video-mockup img {
@@ -345,8 +349,8 @@ nav ul a.lower-opacity {
 }
 
 .video-mockup .video-interface {
-  height: 40vh;
-  width: 70vh;
+  width: 100%;
+  height: 100%;
   box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -440,6 +444,35 @@ nav ul a.lower-opacity {
   .rebob-boxes {
     margin-top: 0;
   }
+
+  /* VIDEO SECTION */
+
+  .video-mockup {
+    height: 35vh;
+    width: 55vh;
+  }
+
+  .video-mockup .patient-by-gender {
+    width: 10vh;
+    height: 12vh;
+    box-shadow: -15px 20px 105px 14px rgba(0, 0, 0, 0.15);
+  }
+
+  .video-mockup .total-patients {
+    width: 15vh;
+    height: 7vh;
+    box-shadow: 0px 20px 50px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .video-mockup .play-circle {
+    padding: 3rem;
+    border-radius: 6rem;
+  }
+
+  .play-circle img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 581px) {
@@ -503,5 +536,37 @@ nav ul a.lower-opacity {
   .box {
     padding: 0.5rem;
     margin: 1rem;
+  }
+
+  /* VIDEO SECTION */
+
+  .video-mockup {
+    height: 30vh;
+    width: 45vh;
+  }
+
+  .video-mockup .video-interface {
+    box-shadow: none;
+  }
+
+  .video-mockup .patient-by-gender {
+    width: 10vh;
+    height: 12vh;
+  }
+
+  .video-mockup .total-patients {
+    width: 15vh;
+    height: 7vh;
+    box-shadow: 0px 20px 50px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .video-mockup .play-circle {
+    padding: 1.5rem;
+    border-radius: 6rem;
+  }
+
+  .play-circle img {
+    height: 1.5rem;
+    width: 1.7rem;
   }
 }
