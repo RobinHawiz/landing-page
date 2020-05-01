@@ -120,7 +120,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 30vh;
+  min-height: 100%;
   position: absolute;
   left: 0;
   right: 0;
@@ -209,7 +209,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  height: 30vh;
+  min-height: 100%;
   position: absolute;
   left: 0;
   right: 0;
@@ -298,7 +298,7 @@ nav ul a.lower-opacity {
   background: inherit;
   content: "";
   display: block;
-  min-height: 30vh;
+  min-height: 100%;
   position: absolute;
   left: 0;
   right: 0;
