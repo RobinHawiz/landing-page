@@ -24,6 +24,7 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -32,10 +33,14 @@ h1 {
 
 h2 {
   font-size: 4rem;
+  font-weight: lighter;
+  color: #122552;
 }
 
 h3 {
   font-size: 2rem;
+  color: rgba(18, 37, 82, 0.7);
+  font-weight: lighter;
 }
 
 p {
@@ -54,7 +59,6 @@ p {
 nav {
   padding: 2rem 0;
   width: 58%;
-  font-size: 1.5rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -229,8 +233,6 @@ nav ul a.lower-opacity {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-weight: lighter;
-  color: #122552;
   z-index: 2;
 }
 
@@ -239,14 +241,11 @@ nav ul a.lower-opacity {
 }
 
 .rebob-text h3 {
-  color: rgba(18, 37, 82, 0.7);
-  font-weight: lighter;
   letter-spacing: 0.2rem;
 }
 
 .rebob-text h2 {
   padding-top: 2rem;
-  font-weight: lighter;
 }
 
 .rebob-boxes {
@@ -317,8 +316,6 @@ nav ul a.lower-opacity {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: lighter;
-  color: #122552;
   z-index: 2;
 }
 
@@ -326,14 +323,11 @@ nav ul a.lower-opacity {
   text-align: center;
 }
 .video-text h3 {
-  color: rgba(18, 37, 82, 0.7);
   letter-spacing: 0.2rem;
-  font-weight: lighter;
 }
 
 .video-text h2 {
   padding-top: 2rem;
-  font-weight: lighter;
 }
 
 .video-mockup {
@@ -388,6 +382,39 @@ nav ul a.lower-opacity {
   height: 3.2rem;
   width: 3.2rem;
   padding-left: 0.5rem;
+}
+
+/* TEAM MEETING SECTION */
+
+#team-meeting {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-meeting-wrapper {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-meeting-text {
+  margin: 0rem 5rem;
+}
+
+.team-meeting-images {
+  margin: 0rem 5rem;
+}
+
+.team-meeting-text h2 {
+  padding-bottom: 2rem;
+}
+
+.team-meeting-text a {
+  color: black;
 }
 
 @media screen and (max-width: 1566px) {
