@@ -519,6 +519,85 @@ nav ul a.lower-opacity {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* PLATFORM SECTION */
+
+#platform {
+  min-height: 70vh;
+}
+
+.platform-wrapper {
+  min-height: 70vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.platform-laptop {
+  height: 70vh;
+  width: 75vh;
+  display: flex;
+}
+
+.platform-laptop img {
+  height: 100%;
+  width: 100%;
+}
+
+.platform-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.platform-text h2 {
+  padding-bottom: 4rem;
+}
+
+.platform-text p {
+  color: rgba(18, 37, 82, 0.7);
+}
+
+.platform-text .main-text {
+  line-height: 2;
+}
+
+.platform-boxes {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.platform-box {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.platform-box:hover {
+  border-radius: 2rem;
+  box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.platform-box:hover .num-circle p {
+  color: white;
+}
+
+.platform-box:hover .num-circle {
+  background: #52de97;
+}
+
+.platform-box:hover p {
+  color: #52de97;
+}
+
+.num-circle {
+  margin-right: 2rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 3rem;
+  background: rgba(18, 37, 82, 0.07);
+}
+
 @media screen and (max-width: 1566px) {
   /* GLOBALS */
 
