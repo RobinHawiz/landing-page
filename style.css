@@ -16,6 +16,7 @@ body {
 
 button {
   font-family: "Varela", sans-serif;
+  cursor: pointer;
 }
 
 li {
@@ -25,6 +26,7 @@ a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 h1 {
@@ -106,10 +108,6 @@ nav ul a.lower-opacity {
   border-radius: 1.7rem;
   border: none;
   font-size: 1.5rem;
-}
-
-.login-register button:hover {
-  cursor: pointer;
 }
 
 /* FLOWLESS PAYMENT FLOW SECTION */
@@ -412,17 +410,25 @@ nav ul a.lower-opacity {
 }
 
 .team-meeting-wrapper {
-  height: 50vh;
+  height: 70vh;
   width: 65%;
   display: flex;
   justify-content: space-between;
 }
 
+.team-meeting-images-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.team-meeting-images {
+  height: 80%;
+}
+
 .team-meeting-text {
-  height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .team-meeting-text h2 {
@@ -447,10 +453,22 @@ nav ul a.lower-opacity {
 
 .team-meeting-text li {
   padding-top: 4rem;
-}
+} /* VIDEO SECTION */
 
 .team-meeting-text a {
-  color: black;
+  font-size: 2rem;
+  color: #52de97;
+}
+
+.team-meeting-text a::after {
+  content: "";
+  background-image: url("./images/right-arrow.png");
+  display: inline-block;
+  background-size: 100% 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: translateY(15%);
+  margin-left: 1vw;
 }
 
 .image {
@@ -571,12 +589,19 @@ nav ul a.lower-opacity {
 
   /* TEAM MEETING SECTION */
 
+  .team-meeting-wrapper {
+    width: 70%;
+  }
+
   .team-meeting-text {
     margin: 0;
   }
 
+  .team-meeting-text a {
+    font-size: 1.5rem;
+  }
+
   .team-meeting-images {
-    width: 10%;
     grid-gap: 4rem;
   }
 
@@ -678,5 +703,24 @@ nav ul a.lower-opacity {
   .play-circle img {
     height: 1.5rem;
     width: 1.7rem;
+  }
+
+  /* TEAM MEETING SECTION */
+
+  .team-meeting-images {
+    display: none;
+  }
+
+  .team-meeting-text a {
+    font-size: 1.2rem;
+  }
+  .team-meeting-text a::after {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .team-meeting-text p:before {
+    width: 1rem;
+    height: 1rem;
   }
 }
