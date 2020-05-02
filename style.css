@@ -391,6 +391,8 @@ nav ul a.lower-opacity {
   min-height: 60vh;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
 #team-meeting::after {
@@ -410,13 +412,17 @@ nav ul a.lower-opacity {
 }
 
 .team-meeting-wrapper {
-  min-height: 50vh;
+  height: 50vh;
+  width: 65%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .team-meeting-text {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .team-meeting-text h2 {
@@ -448,7 +454,7 @@ nav ul a.lower-opacity {
 }
 
 .image {
-  height: 20vh;
+  height: 22vh;
   width: 17vh;
   box-shadow: 0px 15px 20px 1px rgba(0, 0, 0, 0.05);
 }
@@ -473,8 +479,6 @@ nav ul a.lower-opacity {
 
 .team-meeting-images {
   transform: skew(10deg, -10deg);
-  height: 40vh;
-  width: 40vh;
   display: grid;
   grid-gap: 8rem;
   grid-template-columns: repeat(2, 1fr);
