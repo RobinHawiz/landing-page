@@ -600,17 +600,58 @@ nav ul a.lower-opacity {
 
 /* CUSTOMER SECTION */
 
+.background {
+  background: #f5f9fc;
+  transform: skewY(-10deg);
+}
+
+.background::after {
+  background: linear-gradient(to left, #e9ecf0, #f5f9fc);
+  content: "";
+  display: block;
+  min-height: 25%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  z-index: -1;
+}
+
+.background::after {
+  top: 0;
+}
+
+.background:before {
+  background: linear-gradient(to right, #eaedf1, #f5f9fc);
+  content: "";
+  display: block;
+  min-height: 25%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.background:before {
+  bottom: 0;
+}
+
 #customer {
   margin-top: 10rem;
-  min-height: 60vh;
+  min-height: 70vh;
+  position: relative;
+  z-index: 3;
+  transform: skewY(10deg);
 }
 
 .customer-wrapper {
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .customer-title-text h3 {
