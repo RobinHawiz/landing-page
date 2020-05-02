@@ -598,6 +598,79 @@ nav ul a.lower-opacity {
   background: rgba(18, 37, 82, 0.07);
 }
 
+/* CUSTOMER SECTION */
+
+#customer {
+  margin-top: 10rem;
+  min-height: 60vh;
+}
+
+.customer-wrapper {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-title-text h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-boxes {
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.customer {
+  margin: 2rem;
+  padding: 5rem;
+  border-radius: 2rem;
+  border-style: dashed;
+  border-color: rgba(166, 176, 201, 0.5);
+  border-width: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgba(18, 37, 82, 0.7);
+  transition: 0.5s ease-in-out;
+  flex: 1 1 30rem;
+}
+
+.customer:hover {
+  border: none;
+  box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.customer:hover .customer-text {
+  color: rgb(18, 37, 82);
+}
+
+.customer-bio {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.customer-bio .name {
+  font-size: 1.7rem;
+}
+
+.customer-bio .title {
+  font-size: 1.5rem;
+  color: rgba(18, 37, 82, 0.4);
+}
+
+.customer-bio img {
+  width: 5rem;
+  height: 5rem;
+}
+
 @media screen and (max-width: 1566px) {
   /* GLOBALS */
 
@@ -850,5 +923,28 @@ nav ul a.lower-opacity {
     height: 25vh;
     width: 30vh;
     min-width: 30vh;
+  }
+
+  /* CUSTOMER SECTION */
+
+  .customer {
+    padding: 2rem;
+  }
+
+  .customer-boxes {
+    margin-top: 2rem;
+  }
+
+  .customer-bio .name {
+    font-size: 1rem;
+  }
+
+  .customer-bio .title {
+    font-size: 0.8rem;
+  }
+
+  .customer-bio img {
+    width: 3rem;
+    height: 3rem;
   }
 }
