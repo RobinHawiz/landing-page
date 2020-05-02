@@ -397,7 +397,7 @@ nav ul a.lower-opacity {
   background: white;
   content: "";
   display: block;
-  min-height: 100%;
+  min-height: 50%;
   width: 100%;
   left: 0;
   right: 0;
@@ -405,6 +405,23 @@ nav ul a.lower-opacity {
 }
 
 #team-meeting::after {
+  z-index: -1;
+  transform: skewY(-10deg);
+}
+
+#team-meeting::before {
+  background: linear-gradient(to right, white, rgb(243, 243, 243));
+  content: "";
+  display: block;
+  min-height: 50%;
+  width: 50%;
+  left: 50%;
+  right: 0;
+  position: absolute;
+}
+
+#team-meeting::before {
+  top: 30%;
   z-index: -1;
   transform: skewY(-10deg);
 }
