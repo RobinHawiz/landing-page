@@ -1036,4 +1036,18 @@ nav ul a.lower-opacity {
     width: 3rem;
     height: 3rem;
   }
+
+  /* TRIAL SECTION */
+
+  .trial-info button {
+    padding: 1rem 3rem 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .trial-info button::after {
+    height: 0.75rem;
+    width: 0.5rem;
+    top: 50%;
+    margin-left: 0.5rem;
+  }
 }
