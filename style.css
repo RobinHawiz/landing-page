@@ -775,6 +775,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-wrapper ul a {
@@ -788,6 +789,14 @@ footer {
 }
 
 .footer-logo {
+  padding: 1rem;
+}
+
+.footer-socials a {
+  padding: 1rem 1rem;
+}
+
+.footer-logo {
   flex: 0.5 1 10rem;
 }
 
@@ -795,11 +804,12 @@ footer {
   display: flex;
   justify-content: space-evenly;
   flex: 2 1 40rem;
+  text-align: center;
 }
 
 .footer-socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex: 0.5 1 10rem;
 }
 
