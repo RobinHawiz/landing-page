@@ -762,6 +762,19 @@ nav ul a.lower-opacity {
 
 /* FOOTER */
 
+footer {
+  min-height: 10vh;
+}
+
+.footer-wrapper {
+  padding: 2rem 0;
+  width: 58%;
+}
+
+.footer-wrapper ul a {
+  color: rgba(18, 37, 82, 0.5);
+}
+
 .footer-logo img,
 .footer-socials img {
   width: 4rem;
