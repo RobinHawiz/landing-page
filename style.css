@@ -712,6 +712,50 @@ nav ul a.lower-opacity {
   height: 5rem;
 }
 
+/* TRIAL SECTION */
+
+#trial {
+  margin-top: 1rem;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+
+.trial-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.trial-info h2 {
+  padding: 2rem;
+}
+
+.trial-info button {
+  font-weight: 700;
+  padding: 2rem 5rem 2rem 3rem;
+  margin-top: 5rem;
+  border-radius: 1.7rem;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  background: #52de97;
+  position: relative;
+}
+
+.trial-info button::after {
+  content: "";
+  background-image: url("./images/right-trial-arrow.png");
+  background-size: 100% 100%;
+  height: 1.5rem;
+  width: 1rem;
+  top: 50%;
+  margin-left: 1rem;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
 @media screen and (max-width: 1566px) {
   /* GLOBALS */
 
