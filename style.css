@@ -176,7 +176,7 @@ nav ul a.lower-opacity {
   display: flex;
 }
 
-.product-name .background {
+.product-name-background {
   background: rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
   border-radius: 1.5rem;
