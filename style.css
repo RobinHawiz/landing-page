@@ -1104,3 +1104,9 @@ footer {
     margin-left: 0.5rem;
   }
 }
+
+@media screen and (max-width: 877px) {
+  .footer-logo {
+    text-align: center;
+  }
+}
