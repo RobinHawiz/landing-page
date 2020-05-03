@@ -760,6 +760,14 @@ nav ul a.lower-opacity {
   position: absolute;
 }
 
+/* FOOTER */
+
+.footer-logo img,
+.footer-socials img {
+  width: 4rem;
+  height: 4rem;
+}
+
 @media screen and (max-width: 1566px) {
   /* GLOBALS */
 
