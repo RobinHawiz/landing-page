@@ -765,11 +765,16 @@ nav ul a.lower-opacity {
 footer {
   min-height: 10vh;
   border-top: 0.1rem solid rgba(18, 37, 82, 0.2);
+  display: flex;
+  justify-content: center;
 }
 
 .footer-wrapper {
   padding: 2rem 0;
   width: 58%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .footer-wrapper ul a {
@@ -780,6 +785,22 @@ footer {
 .footer-socials img {
   width: 4rem;
   height: 4rem;
+}
+
+.footer-logo {
+  flex: 0.5 1 10rem;
+}
+
+.footer-wrapper ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2 1 40rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.5 1 10rem;
 }
 
 @media screen and (max-width: 1566px) {
