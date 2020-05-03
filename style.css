@@ -764,6 +764,7 @@ nav ul a.lower-opacity {
 
 footer {
   min-height: 10vh;
+  border-top: 0.1rem solid rgba(18, 37, 82, 0.2);
 }
 
 .footer-wrapper {
